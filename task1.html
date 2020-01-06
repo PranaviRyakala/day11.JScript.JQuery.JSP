@@ -1,0 +1,22 @@
+<html>
+<head>
+<script>
+function sample(str){
+if(str=='red')
+document.getElementById("select").innerHTML="<span style='color: red;'>RED</span><br><br>";
+else if(str=='blue')
+document.getElementById("select").innerHTML="<span style='color: blue;'>BLUE</span><br><br>";
+else if(str=='green')
+document.getElementById("select").innerHTML="<span style='color: green;'>GREEN</span><br><br>";
+}
+</script>
+</head>
+<body>
+<br>
+<br>
+<span id="select"></span>
+<input type="button" value="red" onclick="sample('red')"></button>
+<input type="button" value="blue" onclick="sample('blue')"></button>
+<input type="button" value="green" onclick="sample('green')"></button>
+</body>
+</html>
